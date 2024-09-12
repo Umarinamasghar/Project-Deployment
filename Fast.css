@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* General Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #00274d;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.university-name h1 {
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Navigation Menu Styling */
+nav {
+    background-color: #004080;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+.overview {
+    margin-bottom: 40px;
+}
+
+.overview h2 {
+    font-size: 28px;
+    color: #00274d;
+}
+
+.overview p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.featured h3, .news h3 {
+    font-size: 22px;
+    color: #004080;
+}
+
+.featured ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.featured ul li {
+    margin: 10px 0;
+}
+
+.featured ul li a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.featured ul li a:hover {
+    text-decoration: underline;
+}
+
+.news p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #00274d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
